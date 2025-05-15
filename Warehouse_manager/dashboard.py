@@ -19,7 +19,7 @@ def open_dashboard(username, role="user"):
     # Thông tin người dùng
     info_frame = tk.Frame(root, bg="#ffffff")
     info_frame.pack(anchor='ne', padx=10, pady=5)
-    avatar = "🧑‍💼" if role != "admin" else "👑"
+    avatar = "🧑‍💼" if role != "vansang" else "👑"
     tk.Label(info_frame, text=f"{avatar} {username} ({role})", font=("Arial", 11, "italic"), bg="#ffffff", fg="#444").pack(anchor='ne')
 
     # Tiêu đề
